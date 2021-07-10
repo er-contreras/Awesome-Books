@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* border: 1px solid black; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section h1 {
+  margin: 1rem;
+  font-size: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#title-container,
+#author-container,
+#submit-container {
+  margin: 1rem;
+}
+
+#library {
+  width: 20rem;
+  background-color: rgb(255, 255, 255);
+}
+
+#books-container {
+  display: flex;
+  justify-content: space-between;
+}
